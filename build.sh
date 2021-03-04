@@ -21,7 +21,7 @@ conda install -c conda-forge -y cmake xeus=1.0.0 cppzmq nlohmann_json xtl=0.7.0 
 # Install xeus-sql
 rm -rf /tmp/xeus-sql
 cd /tmp
-git clone https://github.com/jupyter-xeus/xeus-sql.git
+git clone https://github.com/jupyter-xeus/xeus-sql.git --depth 1
 cd xeus-sql
 git checkout $(git describe --tags $(git rev-list --tags --max-count=1))
 mkdir -p build && cd build
