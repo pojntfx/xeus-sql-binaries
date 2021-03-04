@@ -11,7 +11,7 @@ Binaries packages (`.tar.gz`, built against the GNU `libc`) are built weekly and
 You can install them like so:
 
 ```shell
-# Fetch the xeus-sql binary package for your architecture (x86_64 and aarch64 are supported)
+# Fetch the xeus-sql binary package for your architecture (x86_64 is supported; aarch64 is blocked until soci-core becomes available on aarch64)
 curl -L -o /tmp/xeus-sql.tar.gz https://github.com/pojntfx/xeus-sql-binaries/releases/download/latest/xeus-sql.$(uname -m).tar.gz
 
 # Extract the package to /usr/local/xeus-sql. You must install in this prefix.
