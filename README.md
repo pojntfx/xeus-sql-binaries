@@ -2,7 +2,7 @@
 
 Weekly builds of https://github.com/jupyter-xeus/xeus-sql.
 
-![Docker CI](https://github.com/pojntfx/xeus-sql-binaries/workflows/Docker%20CI/badge.svg)
+![hydrun CI](https://github.com/pojntfx/xeus-sql-binaries/workflows/hydrun%20CI/badge.svg)
 
 ## Installation
 
