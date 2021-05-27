@@ -16,11 +16,11 @@ curl -L -o /tmp/xeus-sql.tar.gz https://github.com/pojntfx/xeus-sql-binaries/rel
 
 # Extract the package to /usr/local/xeus-sql. You must install in this prefix.
 XEUS_PREFIX=/usr/local/xeus-sql
-mkdir -p ${XEUS_PREFIX}
-tar -C ${XEUS_PREFIX} -xzf /tmp/xeus-sql.tar.gz
+sudo mkdir -p ${XEUS_PREFIX}
+sudo tar -C ${XEUS_PREFIX} -xzf /tmp/xeus-sql.tar.gz
 
 # Install the kernel
-jupyter kernelspec install ${XEUS_PREFIX}/share/jupyter/kernels/xsql --sys-prefix
+sudo jupyter kernelspec install ${XEUS_PREFIX}/share/jupyter/kernels/xsql --sys-prefix
 ```
 
 ## License
